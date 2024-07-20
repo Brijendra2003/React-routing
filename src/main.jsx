@@ -8,7 +8,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 // import './index.css'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/React-routing">
     <App />
   </BrowserRouter>
 );
